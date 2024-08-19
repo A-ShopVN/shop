@@ -1,0 +1,1899 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="shop.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>A-ShopVN</title>
+</head>
+
+<body>
+
+    <!-- Sidebar -->
+    <div class="sidebar">
+        <a href="#" class="logo">
+            <i class='bx bxs-cart-alt'></i>
+            <div class="logo-name"><span>A-</span>ShopVN</div>
+        </a>
+        <ul class="side-menu">
+            <li><a href="#Dashboard" class="tab-item" data-tab="Dashboard"><i class='bx bxs-dashboard'></i>Dashboard</a></li>
+            <li><a href="#Shop" class="tab-item" data-tab="Shop"><i class='bx bx-store-alt'></i>Shop</a></li>
+            <li><a href="#About" class="tab-item" data-tab="About"><i class='bx bx-group'></i>About</a></li>
+            <li><a href="#Earns" class="tab-item" data-tab="Earns"><i class='bx bx-coin'></i>Money Makers Hub</a></li>
+        </ul>
+        <ul class="side-menu">
+            <li>
+                <a href="#" class="logout" id="logout">
+                    <i class='bx bx-log-out-circle'></i>
+                    Logout
+                </a>
+            </li>
+        </ul>
+    </div>
+    <!-- End of Sidebar -->
+
+    <!-- Main Content -->
+    <div class="content">
+        
+        <!-- Navbar -->
+        <nav>
+            <i class='bx bx-menu'></i>
+             <form action="#">
+                <div class="form-input">
+                    <input type="search" placeholder="Search...don't work">
+                    <button class="search-btn" type="submit"><i class='bx bx-search'></i></button>
+                </div>
+            </form>
+            <input type="checkbox" id="theme-toggle" hidden>
+            <label for="theme-toggle" class="theme-toggle"></label>
+            <!-- Biểu tượng chuông thông báo -->
+                <div class="notification">
+                    <span class="notif">
+                        <i class="bx bx-bell"></i> <!-- Biểu tượng chuông -->
+                        <span class="count">0</span> <!-- Số lượng thông báo -->
+                    </span>
+                    <!-- Phần hiển thị thông báo -->
+                    <div class="notification-dropdown">
+                        <div class="no-notifications">
+                            <p>Don't have notification</p>
+                        </div>
+                        <ul class="notification-list">
+                            <!-- Danh sách thông báo sẽ được thêm vào đây -->
+                        </ul>
+                    </div>
+                </div>
+
+                <a href="#" class="profile" id="profiles">
+                    <!-- <img src="" alt="Profile Image"> -->
+                    <span id="user-email"></span>
+                </a>
+                
+                
+        </nav>
+
+        <!-- End of Navbar -->
+         <!-- shop -->
+        <div class="shop tab-content" id="Shop">
+            <!-- Thẻ sản phẩm 3D -->
+            <div class="flip-card-container">
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="https://down-bs-vn.img.susercontent.com/vn-11134201-7r98o-lyvxvc2ii4i54d.webp" alt="Product Image" class="product-image">
+                        </div>
+                        <div class="flip-card-back">
+                            <h3>L'Oreal Paris Micellar Water 400ml</h3>
+                            <p>L'Oreal Paris Micellar Water 400ml is a gentle makeup remover that cleanses deeply without irritation. Suitable for all skin types, it effectively removes dirt and makeup.</p>
+                            <a href="https://s.shopee.vn/7fGD48ty6Q" target="_blank" class="buy-now-btn" target="_blank">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="https://down-bs-vn.img.susercontent.com/vn-11134201-7r98o-lyvxugp7z8lp92.webp" alt="Product Image" class="product-image">
+                        </div>
+                        <div class="flip-card-back">
+                            <h3>L'Oreal Paris UV Defender Serum 50ml SPF 50++</h3>
+                            <p>L'Oreal Paris UV Defender Serum 50ml SPF 50++ offers high-level sun protection with a lightweight formula. It guards against UV rays while hydrating and protecting your skin from daily environmental stressors.</p>
+                            <a href="https://s.shopee.vn/2frX7IMBhh" target="_blank" class="buy-now-btn">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="https://down-bs-vn.img.susercontent.com/vn-11134207-7r98o-lypxr9pyoashde.webp" alt="Product Image" class="product-image">
+                        </div>
+                        <div class="flip-card-back">
+                            <h3>Garnier Micellar Cleansing Water 400ml</h3>
+                            <p>Garnier Micellar Cleansing Water 400ml effectively removes makeup and impurities with a gentle, no-rinse formula. It cleanses and soothes the skin, leaving it fresh and refreshed without irritation.</p>
+                            <a href="https://s.shopee.vn/6V4FgVgoD1" target="_blank" class="buy-now-btn">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="https://down-cvs-vn.img.susercontent.com/sg-11134201-7rd6k-lvx0cc1lwvit68.webp" alt="Product Image" class="product-image">
+                        </div>
+                        <div class="flip-card-back">
+                            <h3> L'Oreal Paris</h3>
+                            <p>L'Oréal Paris offers high-quality beauty and skincare solutions. Their products are known for advanced formulations, delivering effective results for radiant and healthy skin.</p>
+                            <a href="https://s.shopee.vn/1B2jKolMPt" target="_blank" class="buy-now-btn">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="https://down-cvs-vn.img.susercontent.com/vn-11134201-7r98o-ltlabpm9grzh8e.webp" alt="Product Image" class="product-image">
+                        </div>
+                        <div class="flip-card-back">
+                            <h3>L'Oreal Paris Pure Revitalift Hyaluronic Acid 95ml</h3>
+                            <p>L'Oréal Paris Pure Revitalift Hyaluronic Acid 95ml deeply hydrates and revitalizes skin, reducing wrinkles and enhancing firmness for a youthful glow. Perfect for a smoother, plumper complexion.</p>
+                            <a href="https://s.shopee.vn/4Kzl6wW6BU" target="_blank" class="buy-now-btn">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="https://down-cvs-vn.img.susercontent.com/vn-11134201-7r98o-ltlabvb154eo79.webp" alt="Product Image" class="product-image">
+                        </div>
+                        <div class="flip-card-back">
+                            <h3> L'Oreal Paris Revitalift Crystal Micellar Water 95ml</h3>
+                            <p>L'Oréal Paris Revitalift Crystal Micellar Water 95ml cleanses and brightens the skin, removing impurities and makeup while refreshing your complexion for a radiant, clear look.</p>
+                            <a href="https://s.shopee.vn/1VfZjrzVxw" target="_blank" class="buy-now-btn">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="https://down-cvs-vn.img.susercontent.com/vn-11134207-7r98o-lx5p59talj2z91.webp" alt="Product Image" class="product-image">
+                        </div>
+                        <div class="flip-card-back">
+                            <h3>Khăn mặt khô Chillwipes dùng 1 lần lau khô, lau ướt - Giấy lau mặt dùng một lần</h3>
+                            <p>Chillwipes dry face towels are ideal for one-time use, perfect for both dry and wet wiping. These disposable face wipes offer convenience and hygiene for your daily routine.</p>
+                            <a href="https://s.shopee.vn/3q3UWI54GQ" target="_blank" class="buy-now-btn">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="https://down-bs-vn.img.susercontent.com/vn-11134207-7r98o-lyp27wffsech8f.webp" alt="Product Image" class="product-image">
+                        </div>
+                        <div class="flip-card-back">
+                            <h3></h3>
+                            <p>Bộ sưu tập áo sweater LABUBU unisex của EGentleHanoi mang đến thiết kế form rộng, tay bồng thoải mái, phù hợp cho cả nam và nữ.</p>
+                            <a href="https://s.shopee.vn/4KzpRYVmxd" target="_blank" class="buy-now-btn">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="https://down-bs-vn.img.susercontent.com/vn-11134207-7r98o-lpp2r0x7ypg403.webp" alt="Product Image" class="product-image">
+                        </div>
+                        <div class="flip-card-back">
+                            <h3></h3>
+                            <p>Áo thun trơn babytee form ôm, chất liệu thun co giãn 4 chiều, đủ màu basic, fit dáng siêu đẹp, giá siêu rẻ, đảm bảo chất lượng, hình thật 100%, phù hợp mọi phong cách.</p>
+                            <a href="https://s.shopee.vn/6V4K1ecRtK" target="_blank" class="buy-now-btn">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="https://down-bs-vn.img.susercontent.com/vn-11134207-7r98o-ltls60i98vf1cc.webp" alt="Product Image" class="product-image">
+                        </div>
+                        <div class="flip-card-back">
+                            <h3></h3>
+                            <p>Quần short denim Chauzi lưng cao, phối túi trước, chất liệu cao cấp, mang phong cách thời trang Hàn Quốc hiện đại, tôn dáng, thích hợp cho phái đẹp yêu thích sự thanh lịch và trẻ trung.</p>
+                            <a href="https://s.shopee.vn/9f1LnbVxfw" target="_blank" class="buy-now-btn">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="https://down-bs-vn.img.susercontent.com/vn-11134207-7r98o-lynjiwktpx71ef.webp" alt="Product Image" class="product-image">
+                        </div>
+                        <div class="flip-card-back">
+                            <h3></h3>
+                            <p>Áo thun dài tay ôm body, thiết kế 4 cúc, chất liệu tăm cotton mềm mại, co giãn tốt, mang đến vẻ ngoài thanh lịch và thoải mái, phù hợp với nhiều phong cách, sản phẩm từ Maylily Store.</p>
+                            <a href="https://s.shopee.vn/5KsMdhy2dS" target="_blank" class="buy-now-btn">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="https://down-bs-vn.img.susercontent.com/vn-11134207-7qukw-ljf04ata3jki78.webp" alt="Product Image" class="product-image">
+                        </div>
+                        <div class="flip-card-back">
+                            <h3></h3>
+                            <p>Quần ống rộng nữ vải đũi mát, loại đẹp siêu hot với nhiều màu sắc, cạp cao giúp tôn dáng, form xinh MA277, mang lại sự thoải mái và phong cách thời trang nổi bật cho phái đẹp.</p>
+                            <a href="https://s.shopee.vn/1fz4H5ZQxf" target="_blank" class="buy-now-btn">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="https://down-bs-vn.img.susercontent.com/vn-11134207-7r98o-loe1mdzathirf2.webp" alt="Product Image" class="product-image">
+                        </div>
+                        <div class="flip-card-back">
+                            <h3></h3>
+                            <p>Khẩu trang 5D 3 lớp, chống nắng, chống bụi và tia UV hiệu quả, gói gồm 10 túi, mỗi túi 100 chiếc, đảm bảo an toàn sức khỏe và tiện dụng cho mọi hoạt động ngoài trời.</p>
+                            <a href="https://s.shopee.vn/qqI5DlRU" target="_blank" class="buy-now-btn">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="https://down-bs-vn.img.susercontent.com/vn-11134207-7r98o-lytndeyob92951.webp" alt="Product Image" class="product-image">
+                        </div>
+                        <div class="flip-card-back">
+                            <h3></h3>
+                            <p>Áo thun tổ ong tay hến, cổ tròn, tay cánh rơi, form vừa vặn, chất vải co giãn thoáng mát. Thiết kế trẻ trung, thoải mái, hoàn hảo cho mùa hè. Mua ngay để tận hưởng phong cách và sự thoải mái!</p>
+                            <a href="https://s.shopee.vn/9f1Lnw5XIA" target="_blank" class="buy-now-btn">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="https://down-bs-vn.img.susercontent.com/vn-11134207-7qukw-ljweus9v94msf9.webp" alt="Product Image" class="product-image">
+                        </div>
+                        <div class="flip-card-back">
+                            <h3></h3>
+                            <p>[DEAL SỐC 1K] Bút bi nước, bút gel Deli A575 với mực đen, ngòi 0.5mm, bút bấm tiện dụng, viết trơn tru. Mua ngay để trải nghiệm chất lượng viết mượt mà với giá siêu hấp dẫn!</p>
+                            <a href="https://s.shopee.vn/5podF08VBx" target="_blank" class="buy-now-btn">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="https://down-bs-vn.img.susercontent.com/vn-11134207-7r98o-lvkjjttp5tox7c.webp" alt="Product Image" class="product-image">
+                        </div>
+                        <div class="flip-card-back">
+                            <h3></h3>
+                            <p>Áo thắt eo ôm body, thiết kế tôn dáng tuyệt đẹp, giúp bạn khoe đường cong hoàn hảo. Chất liệu co giãn thoải mái, phù hợp cho mọi dịp, mang đến phong cách thời trang nổi bật và tự tin.</p>
+                            <a href="https://s.shopee.vn/7pZhcr0qQl" target="_blank" class="buy-now-btn">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="https://down-bs-vn.img.susercontent.com/vn-11134201-7r98o-lyx5nv9bq6jlb7.webp" alt="Product Image" class="product-image">
+                        </div>
+                        <div class="flip-card-back">
+                            <h3></h3>
+                            <p>[Rom&nd] Son tint lì Romand Juicy Lasting Tint 5.5g, sản phẩm từ Hàn Quốc, giúp môi bạn căng mọng và lâu trôi. Công thức đặc biệt mang lại màu sắc tươi sáng, bền lâu, lý tưởng cho vẻ ngoài quyến rũ và tự nhiên.</p>
+                            <a href="https://s.shopee.vn/AKH2bUz7ZQ" target="_blank" class="buy-now-btn">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="https://down-bs-vn.img.susercontent.com/vn-11134207-7r98o-lyv26pbwhxsdf5.webp" alt="Product Image" class="product-image">
+                        </div>
+                        <div class="flip-card-back">
+                            <h3></h3>
+                            <p>Áo cổ vuông tay dài trơn basic, form ôm gọn, chất thun tăm co giãn, nhiều màu sắc đa dạng. Sản phẩm Bun222 mang đến vẻ ngoài thanh lịch và thoải mái, dễ phối đồ cho mọi dịp.</p>
+                            <a href="https://s.shopee.vn/9pKm0fuL3c" target="_blank" class="buy-now-btn">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="https://down-bs-vn.img.susercontent.com/vn-11134207-7r98o-ly0f87shb5jv3a.webp" alt="Product Image" class="product-image">
+                        </div>
+                        <div class="flip-card-back">
+                            <h3></h3>
+                            <p>Đầm nữ body cúp ngực dáng ngắn, không mút, có quần trong. Váy kiểu phối nơ màu đen trắng sang chảnh, mẫu G928, tôn dáng quyến rũ và thanh lịch, hoàn hảo cho những dịp đặc biệt.</p>
+                            <a href="https://s.shopee.vn/10jNUaxBXB" target="_blank" class="buy-now-btn">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="https://down-bs-vn.img.susercontent.com/vn-11134207-7r98o-lyqecwgegskh22.webp" alt="Product Image" class="product-image">
+                        </div>
+                        <div class="flip-card-back">
+                            <h3></h3>
+                            <p>Sữa tắm Lifebuoy 800gr, công thức detox và sạch sâu, loại bỏ bụi mịn PM2.5, với 100% thành phần thiên nhiên, diệt khuẩn hiệu quả. Giúp làn da bạn luôn tươi mới và sạch sẽ.</p>
+                            <a href="https://s.shopee.vn/9A55DkkST1" target="_blank" class="buy-now-btn">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="https://down-bs-vn.img.susercontent.com/1f62fd9f67b213be415478d43b9e42bf.webp" alt="Product Image" class="product-image">
+                        </div>
+                        <div class="flip-card-back">
+                            <h3></h3>
+                            <p>Sữa rửa mặt dưỡng ẩm Hada Labo Advanced Nourish Cleanser 80g, giúp làm sạch da hiệu quả và cung cấp độ ẩm tối ưu. Sản phẩm mang đến làn da mềm mịn, không khô căng, phù hợp cho mọi loại da.</p>
+                            <a href="https://s.shopee.vn/6V4K2ug08a" target="_blank" class="buy-now-btn">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="https://down-bs-vn.img.susercontent.com/vn-11134207-7r98o-lyjmo2y51cip23.webp" alt="Product Image" class="product-image">
+                        </div>
+                        <div class="flip-card-back">
+                            <h3></h3>
+                            <p>Áo 2 dây ôm body không mút, thiết kế basic tôn dáng sang chảnh, lý tưởng cho mùa hè. Mẫu áo kiểu nữ G936, hoàn hảo cho những buổi đi chơi, mang đến sự thoải mái và phong cách thời trang nổi bật.</p>
+                            <a href="https://s.shopee.vn/2LEl5KXyz7" target="_blank" class="buy-now-btn">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="https://down-bs-vn.img.susercontent.com/vn-11134207-7r98o-lwzgy07071zvf5.webp" alt="Product Image" class="product-image">
+                        </div>
+                        <div class="flip-card-back">
+                            <h3></h3>
+                            <p>(Combo 2 gói) Bông tẩy trang Lamer 201 miếng 100% cotton, kết hợp với bông tẩy trang Lamer 120 miếng và Lamer 60 miếng. Sản phẩm mềm mại, thấm hút tốt, lý tưởng cho việc làm sạch và chăm sóc da hàng ngày.</p>
+                            <a href="https://s.shopee.vn/7UwrF5Y6xI" target="_blank" class="buy-now-btn">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="https://down-bs-vn.img.susercontent.com/vn-11134201-7r98o-lyzvd38ypd8t53.webp" alt="Product Image" class="product-image">
+                        </div>
+                        <div class="flip-card-back">
+                            <h3></h3>
+                            <p>Kem chống nắng L'Oreal Paris UV Defender Serum 50ml SPF 50++, với công thức x20, mang đến lớp bảo vệ da mỏng nhẹ, thoáng da. Giúp chống lại tia UV hiệu quả, giữ cho làn da luôn sáng khỏe và không bị khô.</p>
+                            <a href="https://s.shopee.vn/4VJFfeYVSj" target="_blank" class="buy-now-btn">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="https://down-bs-vn.img.susercontent.com/vn-11134207-7r98o-lv3mgk0jw1rtba.webp" alt="Product Image" class="product-image">
+                        </div>
+                        <div class="flip-card-back">
+                            <h3></h3>
+                            <p>Áo thun baby BASIC trơn ôm body, chất tăm cotton co giãn, mang đến sự thoải mái và phong cách đơn giản nhưng thời trang. Lý tưởng cho những ngày thường và dễ dàng phối hợp với nhiều trang phục khác.</p>
+                            <a href="https://s.shopee.vn/2VYBI2EJRG" target="_blank" class="buy-now-btn">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="https://down-bs-vn.img.susercontent.com/vn-11134201-7r98o-lyzgf45649590d.webp" alt="Product Image" class="product-image">
+                        </div>
+                        <div class="flip-card-back">
+                            <h3></h3>
+                            <p>Kem nền bắt sáng Superstay Lumi Matte 30H từ Maybelline New York 35ml, che phủ siêu nhẹ, mang lại làn da rạng rỡ và mịn màng. Sản phẩm mới giúp duy trì lớp nền lâu trôi, lý tưởng cho vẻ ngoài tự nhiên và tươi sáng suốt cả ngày.</p>
+                            <a href="https://s.shopee.vn/5podGHcOOm" target="_blank" class="buy-now-btn">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="https://down-bs-vn.img.susercontent.com/vn-11134207-7r98o-lxp5b1i7d0bf61.webp" alt="Product Image" class="product-image">
+                        </div>
+                        <div class="flip-card-back">
+                            <h3></h3>
+                            <p>Quần short đùi nữ kẻ caro, cạp cao lưng chun phối màu, thiết kế có dây rút, kiểu dáng thoải mái và thời trang. Mẫu 677, lý tưởng cho mùa hè, mang đến vẻ ngoài trẻ trung và năng động.</p>
+                            <a href="https://s.shopee.vn/1qIUUzYCQK" target="_blank" class="buy-now-btn">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="https://down-bs-vn.img.susercontent.com/vn-11134207-7r98o-luwufro197o216.webp" alt="Product Image" class="product-image">
+                        </div>
+                        <div class="flip-card-back">
+                            <h3></h3>
+                            <p>Áo thun boxy Local Brand NEVASOME Origin 10, chất cotton 280 gsm, tay lỡ, form boxy rộng, phù hợp cho cả nam và nữ. Với 10 màu sắc đa dạng, mang đến sự thoải mái và phong cách unisex hiện đại.</p>
+                            <a href="https://s.shopee.vn/3q3YskpAcf" target="_blank" class="buy-now-btn">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="https://down-bs-vn.img.susercontent.com/vn-11134207-7r98o-lyhq9j5g61sxff.webp" alt="Product Image" class="product-image">
+                        </div>
+                        <div class="flip-card-back">
+                            <h3></h3>
+                            <p>Áo len polo dệt kim kẻ sọc cộc tay, cổ V, thêu lo.e.we, từ hyominstore. Thiết kế thời trang, kết hợp giữa sự ấm áp và phong cách trẻ trung, phù hợp cho nhiều dịp và dễ dàng phối đồ.</p>
+                            <a href="https://s.shopee.vn/9pKm1slhIp" target="_blank" class="buy-now-btn">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="https://down-bs-vn.img.susercontent.com/vn-11134207-7r98o-lyvvgx4ok2fh2f.webp" alt="Product Image" class="product-image">
+                        </div>
+                        <div class="flip-card-back">
+                            <h3></h3>
+                            <p>[DIỆN MẠO MỚI] Sữa rửa mặt Simple, 150ml, lành tính và hiệu quả cho mọi loại da. Công thức nhẹ nhàng làm sạch sâu mà không gây kích ứng, giúp làn da luôn tươi mới và khỏe mạnh.</p>
+                            <a href="https://s.shopee.vn/LTgiTgzfj" target="_blank" class="buy-now-btn">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="https://down-bs-vn.img.susercontent.com/vn-11134207-7r98o-lufckjxce87la6.webp" alt="Product Image" class="product-image">
+                        </div>
+                        <div class="flip-card-back">
+                            <h3></h3>
+                            <p>Quần suông kẻ nữ cạp cao, dài 100-102 cm, thiết kế phong cách và thoải mái. Tôn dáng và dễ dàng phối đồ, phù hợp cho cả công sở và các dịp thường ngày.</p>
+                            <a href="https://s.shopee.vn/9f1LphRV9f" target="_blank" class="buy-now-btn">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="https://down-bs-vn.img.susercontent.com/vn-11134207-7r98o-lxsvj3hsq317b3.webp" alt="Product Image" class="product-image">
+                        </div>
+                        <div class="flip-card-back">
+                            <h3></h3>
+                            <p>Áo trễ vai nữ cộc tay, kèm dây, JUSTDUN, chất thun cotton mềm mịn. Mẫu Z24 mang đến vẻ ngoài quyến rũ và thoải mái, lý tưởng cho các buổi đi chơi hoặc dạo phố.</p>
+                            <a href="https://s.shopee.vn/8zlf2b9U49" target="_blank" class="buy-now-btn">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="https://down-bs-vn.img.susercontent.com/vn-11134207-7r98o-lx9t48dro5p7dc.webp" alt="Product Image" class="product-image">
+                        </div>
+                        <div class="flip-card-back">
+                            <h3></h3>
+                            <p>Giấy ăn rút lụa trắng mịn 4 lớp TEDDY BEAR, 360 tờ, mang lại sự mềm mại và dai hơn, dày hơn. Combo trải nghiệm kèm quà tặng, lý tưởng cho nhu cầu sử dụng hàng ngày với chất lượng vượt trội.</p>
+                            <a href="https://s.shopee.vn/5podGqSisS" target="_blank" class="buy-now-btn">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="https://down-cvs-vn.img.susercontent.com/vn-11134207-7r98o-lxus8vulkkije3.webp" alt="Product Image" class="product-image">
+                        </div>
+                        <div class="flip-card-back">
+                            <h3></h3>
+                            <p>Gel giảm mụn và thâm Gamma SANTAGIFT, 20g, giúp thông thoáng lỗ chân lông và cải thiện tình trạng da hiệu quả. Sản phẩm hỗ trợ làm giảm mụn và làm sáng da, mang lại làn da mịn màng và khỏe mạnh.</p>
+                            <a href="https://s.shopee.vn/A9xcQsS8mM" target="_blank" class="buy-now-btn">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="https://down-cvs-vn.img.susercontent.com/vn-11134207-7r98o-lypko0lp2ki58a.webp" alt="Product Image" class="product-image">
+                        </div>
+                        <div class="flip-card-back">
+                            <h3></h3>
+                            <p>Áo thun tổ ong kiểu tay hến, cộc tay, cổ tròn, tay cánh rơi, form vừa. Chất vải co giãn thoáng mát, freesize, phù hợp với nhiều dáng người và mang đến sự thoải mái tối đa.</p>
+                            <a href="https://s.shopee.vn/5podH59BoP" target="_blank" class="buy-now-btn">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="https://down-cvs-vn.img.susercontent.com/vn-11134207-7r98o-ls2j8b6v5l1gbe.webp" alt="Product Image" class="product-image">
+                        </div>
+                        <div class="flip-card-back">
+                            <h3></h3>
+                            <p>Kem dưỡng trắng da GlowCode chứa Niacinamide và chiết xuất dâu tằm, hỗ trợ làm sáng da, cải thiện tình trạng thâm, giúp làn da trở nên mịn màng và đều màu.</p>
+                            <a href="https://s.shopee.vn/1LMDutp2jd" target="_blank" class="buy-now-btn">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="https://down-cvs-vn.img.susercontent.com/vn-11134207-7r98o-lyqfkmhb2k3xaa.webp" alt="Product Image" class="product-image">
+                        </div>
+                        <div class="flip-card-back">
+                            <h3></h3>
+                            <p>Nước giặt đồ lót OMO, hương hoa anh đào thanh lịch, 300g. Sản phẩm giúp giặt sạch hiệu quả, mang lại mùi hương dễ chịu và giữ cho đồ lót luôn mềm mại, tươi mới.</p>
+                            <a href="https://s.shopee.vn/1B2nir0kDI" target="_blank" class="buy-now-btn">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="https://down-cvs-vn.img.susercontent.com/vn-11134207-7r98o-lyvviv387w696a.webp" alt="Product Image" class="product-image">
+                        </div>
+                        <div class="flip-card-back">
+                            <h3></h3>
+                            <p>Combo 3 bước dưỡng Simple gồm: Nước tẩy trang 200ml, sữa rửa mặt 150ml và nước hoa hồng 200ml, đặc biệt dành cho da nhạy cảm. Bộ sản phẩm giúp làm sạch sâu, dưỡng ẩm và cân bằng da, mang lại làn da mềm mại và khỏe mạnh.</p>
+                            <a href="https://s.shopee.vn/40Mz6CHSK3" target="_blank" class="buy-now-btn">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="https://down-cvs-vn.img.susercontent.com/vn-11134207-7r98o-lsurz0u47r1516.webp" alt="Product Image" class="product-image">
+                        </div>
+                        <div class="flip-card-back">
+                            <h3></h3>
+                            <p>Bông tẩy trang Lameila BTT222, gói 222 miếng, mềm mại và thấm hút tốt. Lý tưởng cho việc làm sạch và chăm sóc da hàng ngày, giúp loại bỏ bụi bẩn và trang điểm hiệu quả.</p>
+                            <a href="https://s.shopee.vn/5KsMgnDHWZ" target="_blank" class="buy-now-btn">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="https://down-cvs-vn.img.susercontent.com/vn-11134207-7r98o-ltkioj23gd1md8.webp" alt="Product Image" class="product-image">
+                        </div>
+                        <div class="flip-card-back">
+                            <h3></h3>
+                            <p>HÀNG TẶNG KHÔNG BÁN - Trial size - Gel bí đao rửa mặt Cocoon 50ml, giảm dầu và mụn. Sản phẩm giúp làm sạch da hiệu quả, kiểm soát dầu thừa và ngăn ngừa mụn, mang lại làn da sạch sẽ và tươi mới.</p>
+                            <a href="https://s.shopee.vn/9UhveWHnni" target="_blank" class="buy-now-btn">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="https://down-bs-vn.img.susercontent.com/vn-11134207-7r98o-ly208ub3mr4r6e.webp" alt="Product Image" class="product-image">
+                        </div>
+                        <div class="flip-card-back">
+                            <h3></h3>
+                            <p>Áo thun Gonz form rộng, phù hợp cho nam và nữ, cổ tròn với hình in lụa. Chất liệu PC cotton Thái 270g mang đến sự thoải mái và bền bỉ, lý tưởng cho phong cách thời trang cá tính và năng động.</p>
+                            <a href="https://s.shopee.vn/qqLOj8pS" target="_blank" class="buy-now-btn">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="https://down-bs-vn.img.susercontent.com/86dee6d95b3ab605f8dea9bc0833d9c4.webp" alt="Product Image" class="product-image">
+                        </div>
+                        <div class="flip-card-back">
+                            <h3></h3>
+                            <p>HÀNG TẶNG KHÔNG BÁN - Son dưỡng dầu dừa Bến Tre Cocoon, 5g, giúp dưỡng ẩm môi hiệu quả. Chất son mềm mại và giàu dưỡng chất, bảo vệ môi khỏi khô nứt và giữ cho môi luôn mềm mịn.</p>
+                            <a href="https://s.shopee.vn/7KdR50rnPx" target="_blank" class="buy-now-btn">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="https://down-bs-vn.img.susercontent.com/vn-11134207-7r98o-lsh1306lpkg478.webp" alt="Product Image" class="product-image">
+                        </div>
+                        <div class="flip-card-back">
+                            <h3></h3>
+                            <p>Quần ống rộng culottes dài 100cm, cạp bản to 7 phân với 2 khuy, thiết kế siêu hot, mẫu 924. Phù hợp cho nhiều dịp, mang lại sự thoải mái và phong cách thời trang nổi bật.</p>
+                            <a href="https://s.shopee.vn/8zlf48oEfW" target="_blank" class="buy-now-btn">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="https://down-bs-vn.img.susercontent.com/vn-11134207-7r98o-lyvnrz5sftep9f.webp" alt="Product Image" class="product-image">
+                        </div>
+                        <div class="flip-card-back">
+                            <h3></h3>
+                            <p>Set nữ fashion gồm áo vạt nhọn cộc tay và quần sooc xòe thun tăm, mẫu MA555. Thiết kế trẻ trung và phong cách, mang đến sự thoải mái và thời trang cho các dịp dạo phố hay gặp gỡ bạn bè.</p>
+                            <a href="https://s.shopee.vn/5KsMhj2hxi" target="_blank" class="buy-now-btn">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="https://down-bs-vn.img.susercontent.com/vn-11134207-7r98o-lw403887sf6h5c.webp" alt="Product Image" class="product-image">
+                        </div>
+                        <div class="flip-card-back">
+                            <h3></h3>
+                            <p>[QUÀ TẶNG - KHÔNG BÁN] Một miếng mặt nạ giấy COLORKEY LUMINOUS chứa Vitamin B5, giúp làm sáng và dưỡng ẩm da hiệu quả. Đem lại làn da tươi sáng, mềm mại và đều màu.</p>
+                            <a href="https://s.shopee.vn/5fVD6VAwUy" target="_blank" class="buy-now-btn">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="https://down-bs-vn.img.susercontent.com/sg-11134201-23020-tw2x6hw2y1mv31.webp" alt="Product Image" class="product-image">
+                        </div>
+                        <div class="flip-card-back">
+                            <h3></h3>
+                            <p>Quần tây nữ lưng cao, dáng baggy, 2 nút khuy cúc dọc cài. Chất vải dày, co giãn nhẹ, phù hợp cho học sinh cấp 3, đi học hoặc làm công sở. Mang lại sự thoải mái và phong cách thanh lịch.</p>
+                            <a href="https://s.shopee.vn/8UpOTklg21" target="_blank" class="buy-now-btn">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="https://down-bs-vn.img.susercontent.com/vn-11134207-7r98o-lwvdmqb9h3ob46.webp" alt="Product Image" class="product-image">
+                        </div>
+                        <div class="flip-card-back">
+                            <h3></h3>
+                            <p>Áo khoác hoodie zip nam nữ SAM CLO, chất nỉ có mũ, tay dài, phù hợp thu đông. Dáng unisex freesize, thiết kế trơn đơn giản với khóa kéo, mang đến sự ấm áp và phong cách thời trang thoải mái cho cả nam và nữ.</p>
+                            <a href="https://s.shopee.vn/6phAUjqoFo" target="_blank" class="buy-now-btn">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="https://down-bs-vn.img.susercontent.com/vn-11134207-7r98o-lyz9bn38w4gx7d.webp" alt="Product Image" class="product-image">
+                        </div>
+                        <div class="flip-card-back">
+                            <h3></h3>
+                            <p>1 hộp 10 miếng mặt nạ giấy COLORKEY LUMINOUS, chứa Vitamin B5, hỗ trợ phục hồi da. Mỗi miếng 25ml giúp làm sáng và dưỡng ẩm, mang lại làn da mềm mại và tươi mới.</p>
+                            <a href="https://s.shopee.vn/AKH2fGNvni" target="_blank" class="buy-now-btn">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="https://down-bs-vn.img.susercontent.com/vn-11134207-7r98o-lyttr889e05pb7.webp" alt="Product Image" class="product-image">
+                        </div>
+                        <div class="flip-card-back">
+                            <h3></h3>
+                            <p>Áo thun tổ ong kiểu tay hến, cộc tay, cổ tròn, tay cánh rơi, form vừa. Chất vải co giãn, thoáng mát, phù hợp cho mùa hè, mang lại sự thoải mái và phong cách năng động.</p>
+                            <a href="https://s.shopee.vn/1fz4LO6m4h" target="_blank" class="buy-now-btn">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="https://down-bs-vn.img.susercontent.com/vn-11134207-7r98o-lyvqdhbafya5d7.webp" alt="Product Image" class="product-image">
+                        </div>
+                        <div class="flip-card-back">
+                            <h3></h3>
+                            <p>Sữa chống nắng Anessa Perfect UV Sunscreen Skincare Milk 60ml, bảo vệ da hoàn hảo với chỉ số SPF cao, chống lại tia UV và ngăn ngừa tổn thương da. Chất sữa nhẹ nhàng, thẩm thấu nhanh, giúp da luôn mịn màng và khỏe mạnh.</p>
+                            <a href="https://s.shopee.vn/700ahF2zlk" target="_blank" class="buy-now-btn">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="https://down-bs-vn.img.susercontent.com/vn-11134207-7r98o-lyzgirqljln1d1.webp" alt="Product Image" class="product-image">
+                        </div>
+                        <div class="flip-card-back">
+                            <h3></h3>
+                            <p>Giấy rút lụa trắng HAPPY BEAR Ultra Soft, 300 tờ, chất dai, mặt lụa mềm mại. Combo trải nghiệm sản phẩm kèm quà tặng, lý tưởng cho việc chăm sóc hàng ngày với sự mềm mại và bền bỉ.</p>
+                            <a href="https://s.shopee.vn/5AYwVz6nrf" target="_blank" class="buy-now-btn">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="https://down-bs-vn.img.susercontent.com/vn-11134207-7r98o-lymhcs3uu5hpa3.webp" alt="Product Image" class="product-image">
+                        </div>
+                        <div class="flip-card-back">
+                            <h3></h3>
+                            <p>COMBO 10 miếng mặt nạ BANOBAGI PREMIUM Vita Genic Jelly Mask, chứa vitamin, giúp dưỡng trắng, cấp ẩm và chống lão hóa da. Mỗi miếng 30ml cung cấp sự chăm sóc da hiệu quả, mang lại làn da tươi sáng và mịn màng.</p>
+                            <a href="https://s.shopee.vn/BAGYrkDkT" target="_blank" class="buy-now-btn">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="https://down-bs-vn.img.susercontent.com/vn-11134207-7r98o-lvkmvnt85wrg90.webp" alt="Product Image" class="product-image">
+                        </div>
+                        <div class="flip-card-back">
+                            <h3></h3>
+                            <p>Tất cao cổ nữ LADI, mã T08, chất liệu cotton mềm mịn, phong cách vintage Hàn Quốc. Thiết kế cao cổ mang đến sự ấm áp và thời trang, lý tưởng để phối hợp với nhiều trang phục.</p>
+                            <a href="https://s.shopee.vn/3VQiX2nuya" target="_blank" class="buy-now-btn">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="https://down-bs-vn.img.susercontent.com/vn-11134207-7r98o-lyv1sikluppd34.webp" alt="Product Image" class="product-image">
+                        </div>
+                        <div class="flip-card-back">
+                            <h3></h3>
+                            <p>[Nhập COSDK4 giảm 20K đơn 199K] Nước hoa hồng Dear, Klairs Supple Preparation Unscented Toner 180ml. Sản phẩm dưỡng da nhẹ nhàng, cân bằng độ ẩm và làm dịu da, không mùi, phù hợp cho mọi loại da.</p>
+                            <a href="https://s.shopee.vn/g6X9uEtSv" target="_blank" class="buy-now-btn">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="https://down-bs-vn.img.susercontent.com/vn-11134207-7r98o-ltw7gy9af7kd88.webp" alt="Product Image" class="product-image">
+                        </div>
+                        <div class="flip-card-back">
+                            <h3></h3>
+                            <p>[BẢN MỚI] Áo thun cúp cổ vuông ôm gọn, chất tăm mịn mát, từ Chinh Trần Store. Thiết kế hiện đại, mang lại sự thoải mái và phong cách thời trang tinh tế, lý tưởng cho nhiều dịp.</p>
+                            <a href="https://s.shopee.vn/8KVyI5s9TO" target="_blank" class="buy-now-btn">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="https://down-bs-vn.img.susercontent.com/vn-11134207-7r98o-lytgphk05g7h27.webp" alt="Product Image" class="product-image">
+                        </div>
+                        <div class="flip-card-back">
+                            <h3></h3>
+                            <p>Kem giảm thâm ARMPIT CREAM, giúp dưỡng trắng làn da sạm màu ở vùng nách, mông, bikini, khuỷu tay, và đầu gối. Tuýp 35gr, giúp cải thiện tình trạng da, làm sáng và đều màu hiệu quả.</p>
+                            <a href="https://s.shopee.vn/40Mz8FVwaf" target="_blank" class="buy-now-btn">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="https://down-bs-vn.img.susercontent.com/vn-11134207-7r98o-lyvvwrl7rcf5fd.webp" alt="Product Image" class="product-image">
+                        </div>
+                        <div class="flip-card-back">
+                            <h3></h3>
+                            <p>Bigsize - Nước sen Hậu Giang (toner) Cocoon 310ml, giúp phục hồi đa nhiệm cho da nhạy cảm. Sản phẩm dưỡng ẩm, làm dịu và cân bằng da, lý tưởng cho việc chăm sóc làn da mỏng manh và dễ kích ứng.</p>
+                            <a href="https://s.shopee.vn/AUaSsG1SUX" target="_blank" class="buy-now-btn">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="https://down-bs-vn.img.susercontent.com/vn-11134201-7r98o-ly1zr8ddbljt65.webp" alt="Product Image" class="product-image">
+                        </div>
+                        <div class="flip-card-back">
+                            <h3></h3>
+                            <p>[Quà tặng không bán] Nước tẩy trang mắt và môi chuyên dụng 2 lớp Maybelline New York Eye & Lip Makeup Remover 40ml. Hiệu quả làm sạch nhẹ nhàng, loại bỏ lớp trang điểm cứng đầu mà không gây kích ứng, để lại làn da sạch sẽ và mềm mại.</p>
+                            <a href="https://s.shopee.vn/40Mz8beek1" target="_blank" class="buy-now-btn">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="https://down-bs-vn.img.susercontent.com/vn-11134201-7r98o-ll1w657k1lmz86.webp" alt="Product Image" class="product-image">
+                        </div>
+                        <div class="flip-card-back">
+                            <h3></h3>
+                            <p>Nước hoa hồng không mùi Dear Klairs Supple Preparation Unscented 180ml. Công thức nhẹ nhàng, giúp cân bằng độ ẩm, làm dịu và dưỡng da hiệu quả, phù hợp cho mọi loại da, đặc biệt là da nhạy cảm.</p>
+                            <a href="https://s.shopee.vn/3L7ILQKBpT" target="_blank" class="buy-now-btn">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="https://down-bs-vn.img.susercontent.com/vn-11134207-7r98o-lyxjsph98a752c.webp" alt="Product Image" class="product-image">
+                        </div>
+                        <div class="flip-card-back">
+                            <h3></h3>
+                            <p>[NEW][Ver 4] Son tint bóng Hàn Quốc Merzy The Watery Dew Tint 4g, bền màu, lâu trôi. Mang đến đôi môi căng mọng và ẩm mịn, giúp bạn tự tin suốt cả ngày với màu sắc tươi sáng và tự nhiên.</p>
+                            <a href="https://s.shopee.vn/5VBmvRoWbL" target="_blank" class="buy-now-btn">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="https://down-bs-vn.img.susercontent.com/vn-11134207-7r98o-lyqeblwil8p97c.webp" alt="Product Image" class="product-image">
+                        </div>
+                        <div class="flip-card-back">
+                            <h3></h3>
+                            <p>[CHÍNH HÃNG ĐỘC QUYỀN] Smoothie tẩy tế bào chết body Dove, 298g, giúp làm sáng và mịn da. Công thức nhẹ nhàng loại bỏ tế bào chết, dưỡng ẩm và cải thiện kết cấu da, mang lại làn da mềm mại và rạng rỡ.</p>
+                            <a href="https://s.shopee.vn/7fGHVTsbj8" target="_blank" class="buy-now-btn">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="https://down-bs-vn.img.susercontent.com/vn-11134207-7qukw-ljxod1bbhvw4f9.webp" alt="Product Image" class="product-image">
+                        </div>
+                        <div class="flip-card-back">
+                            <h3></h3>
+                            <p>DRCEUTICS Tinh chất B5 Basic Hydration 5% (30ml) giúp cấp ẩm sâu và cải thiện tình trạng da dầu mụn. Công thức chuyên biệt hỗ trợ làm dịu và cân bằng da, mang lại làn da mềm mịn và khỏe mạnh.</p>
+                            <a href="https://s.shopee.vn/3Ans9Gur4V" target="_blank" class="buy-now-btn">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="https://down-bs-vn.img.susercontent.com/vn-11134207-7r98o-lve1d06qvp7o3c.webp" alt="Product Image" class="product-image">
+                        </div>
+                        <div class="flip-card-back">
+                            <h3></h3>
+                            <p>Xịt khóa nền Makeup Dazzle Me, giúp cố định lớp trang điểm lâu trôi và kiểm soát dầu trên da. Công thức giúp bảo vệ lớp nền, giữ cho lớp trang điểm luôn tươi mới và mịn màng suốt cả ngày.</p>
+                            <a href="https://s.shopee.vn/LTgm8Yp7K" target="_blank" class="buy-now-btn">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="https://down-bs-vn.img.susercontent.com/vn-11134207-7r98o-ltyzzzlv4e1r3f.webp" alt="Product Image" class="product-image">
+                        </div>
+                        <div class="flip-card-back">
+                            <h3></h3>
+                            <p>Serum chống nắng dưỡng thể Bioré SPF 50+ PA+++, sản phẩm chính hãng từ Hasaki. Chất serum nhẹ nhàng, bảo vệ da khỏi tia UV, đồng thời dưỡng ẩm và làm sáng da, giữ cho làn da mềm mịn và khỏe mạnh.</p>
+                            <a href="https://s.shopee.vn/9A55IPveXd" target="_blank" class="buy-now-btn">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="https://down-bs-vn.img.susercontent.com/vn-11134207-7r98o-lv1ktlgaxl7e89.webp" alt="Product Image" class="product-image">
+                        </div>
+                        <div class="flip-card-back">
+                            <h3></h3>
+                            <p>HÀNG TẶNG KHÔNG BÁN - Combo 2 trial size nước sen Hậu Giang Cocoon, 50ml mỗi chai. Giúp phục hồi đa nhiệm cho da nhạy cảm, dưỡng ẩm và làm dịu, lý tưởng cho việc chăm sóc da mỏng manh và dễ kích ứng.</p>
+                            <a href="https://s.shopee.vn/2LEl9x5uGT" target="_blank" class="buy-now-btn">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="https://down-bs-vn.img.susercontent.com/vn-11134207-7r98o-lnswx1jnuzn1d3.webp" alt="Product Image" class="product-image">
+                        </div>
+                        <div class="flip-card-back">
+                            <h3></h3>
+                            <p>Balo da nữ GENBAG, chất liệu PU, thiết kế nam nữ ulzzang, chống thấm nước. Dáng basic trơn, đựng laptop 15,6 inch, mẫu BL23, lý tưởng cho đi học hoặc làm việc, mang đến sự tiện lợi và phong cách thời trang.</p>
+                            <a href="https://s.shopee.vn/1fz4MmT1bw" target="_blank" class="buy-now-btn">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="https://down-bs-vn.img.susercontent.com/vn-11134207-7r98o-lvbf6hu4f1jh16.webp" alt="Product Image" class="product-image">
+                        </div>
+                        <div class="flip-card-back">
+                            <h3></h3>
+                            <p>Kem rửa mặt dưỡng ẩm Hada Labo (80g), giúp làm sạch da hiệu quả đồng thời cung cấp độ ẩm cần thiết. Công thức nhẹ nhàng, không gây khô da, mang lại làn da mềm mại và tươi mới sau mỗi lần sử dụng.</p>
+                            <a href="https://s.shopee.vn/8UpOVPfCOP" target="_blank" class="buy-now-btn">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="https://down-bs-vn.img.susercontent.com/vn-11134207-7r98o-lyqe57xj4j7xc3.webp" alt="Product Image" class="product-image">
+                        </div>
+                        <div class="flip-card-back">
+                            <h3></h3>
+                            <p>[CHÍNH HÃNG] Dove Serum dưỡng sáng khử mùi dành cho nữ, 40ml, chứa 3% Niacinamide. Giúp làm sáng da, đều màu và dưỡng ẩm hiệu quả, mang lại làn da mềm mại và tươi sáng.</p>
+                            <a href="https://s.shopee.vn/9UhvhLLlkQ" target="_blank" class="buy-now-btn">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="https://down-bs-vn.img.susercontent.com/vn-11134207-7r98o-lvsfikaz87oac3.webp" alt="Product Image" class="product-image">
+                        </div>
+                        <div class="flip-card-back">
+                            <h3></h3>
+                            <p>Thùng 200 chiếc khẩu trang 3D AMI Mask, 3 lớp, khẩu trang y tế kháng khuẩn, chống bụi mịn. Đảm bảo bảo vệ tối ưu và thoải mái cho người sử dụng, lý tưởng cho các tình huống hàng ngày và môi trường làm việc.</p>
+                            <a href="https://s.shopee.vn/3Ans9lQfIK" target="_blank" class="buy-now-btn">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="https://down-bs-vn.img.susercontent.com/vn-11134207-7r98o-lymo6vsbrp2983.webp" alt="Product Image" class="product-image">
+                        </div>
+                        <div class="flip-card-back">
+                            <h3></h3>
+                            <p>Gel giảm mụn và dưỡng ẩm da ACTIDEM Derma Gel từ Be Glow Beauty, có sẵn trong các tuýp 18gr và 40gr. Giúp làm giảm mụn hiệu quả, đồng thời cung cấp độ ẩm và làm dịu da, mang lại làn da khỏe mạnh và mịn màng.</p>
+                            <a href="https://s.shopee.vn/1VfeAvIh18" target="_blank" class="buy-now-btn">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="https://down-bs-vn.img.susercontent.com/sg-11134301-7rd57-lwgxxlcpjpzc85.webp" alt="Product Image" class="product-image">
+                        </div>
+                        <div class="flip-card-back">
+                            <h3></h3>
+                            <p>[HB Gift - BW] Serum chống nắng Vaseline GLUTA HYA SPF50, 50ml. Serum dưỡng da chống nắng với chỉ số SPF50, giúp bảo vệ da khỏi tia UV, đồng thời cung cấp độ ẩm và làm sáng da, mang lại làn da đều màu và khỏe mạnh.</p>
+                            <a href="https://s.shopee.vn/5fVD94z6jN" target="_blank" class="buy-now-btn">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="https://down-bs-vn.img.susercontent.com/3ca5d181686ddc7098a0415c8eaf706d.webp" alt="Product Image" class="product-image">
+                        </div>
+                        <div class="flip-card-back">
+                            <h3></h3>
+                            <p>[HB GIFT] Sữa chống nắng dưỡng da kiềm dầu Anessa Perfect UV Sunscreen Skincare Milk SPF50+ PA++++, 12ml. Cung cấp bảo vệ hoàn hảo khỏi tia UV, giúp kiểm soát dầu và dưỡng da, giữ cho làn da luôn tươi sáng và mịn màng.</p>
+                            <a href="https://s.shopee.vn/5AYwdV7kf6" target="_blank" class="buy-now-btn">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="https://down-bs-vn.img.susercontent.com/vn-11134207-7r98o-lmsz5jvx6yn30f.webp" alt="Product Image" class="product-image">
+                        </div>
+                        <div class="flip-card-back">
+                            <h3></h3>
+                            <p>Nước hoa nữ Deelab, 10ml, dạng xịt. Mang đến hương thơm hấp dẫn, thu hút, trưởng thành và gợi cảm. Lý tưởng để tạo ấn tượng mạnh mẽ và tự tin trong mọi tình huống.</p>
+                            <a href="https://s.shopee.vn/8ACYD7cBBY" target="_blank" class="buy-now-btn">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="https://down-bs-vn.img.susercontent.com/vn-11134207-7qukw-lk45fhr6h14y3c.webp" alt="Product Image" class="product-image">
+                        </div>
+                        <div class="flip-card-back">
+                            <h3></h3>
+                            <p>Quần ống rộng nữ cạp chun, vải đũi cao cấp, dáng siêu xinh, mẫu MA096. Thiết kế thoải mái và thanh lịch, phù hợp cho nhiều dịp, mang đến sự tự tin và phong cách thời trang nổi bật.</p>
+                            <a href="https://s.shopee.vn/1qIUfXpo1d" target="_blank" class="buy-now-btn">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="https://down-bs-vn.img.susercontent.com/vn-11134207-7r98o-lyyu68l3otal7a.webp" alt="Product Image" class="product-image">
+                        </div>
+                        <div class="flip-card-back">
+                            <h3></h3>
+                            <p>[MÃ GIẢM GIÁ MIAARC7 10% CHO ĐƠN 200K GIẢM TỐI ĐA 10K] Áo thun nữ cổ cao tròn basic, nhiều màu, từ MIAA. Thiết kế đơn giản, dễ phối đồ, mang đến sự thoải mái và phong cách trẻ trung.</p>
+                            <a href="https://s.shopee.vn/40MzFaBHV2" target="_blank" class="buy-now-btn">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="https://down-bs-vn.img.susercontent.com/vn-11134207-7r98o-lyxgn4lmuie996.webp" alt="Product Image" class="product-image">
+                        </div>
+                        <div class="flip-card-back">
+                            <h3></h3>
+                            <p>Quần kaki ống rộng, túi hộp bo gấu, thời trang Hàn Quốc, siêu cá tính, mẫu_014. Thiết kế hiện đại và nổi bật, mang đến sự thoải mái và phong cách thời trang ấn tượng.</p>
+                            <a href="https://s.shopee.vn/5AYwdn55QW" target="_blank" class="buy-now-btn">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="https://down-bs-vn.img.susercontent.com/vn-11134207-7r98o-lyxntxjsky19c1.webp" alt="Product Image" class="product-image">
+                        </div>
+                        <div class="flip-card-back">
+                            <h3></h3>
+                            <p>Cushion cấp ẩm kiềm dầu lâu trôi Hexze, 15g, gồm 2 lõi x 15g. Phấn nước căng bóng, mỏng nhẹ, nâng tone tự nhiên, giúp da đều màu và rạng rỡ suốt cả ngày.</p>
+                            <a href="https://s.shopee.vn/6083dS359z" target="_blank" class="buy-now-btn">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="https://down-bs-vn.img.susercontent.com/vn-11134207-7r98o-lvvb7zd65knvb4.webp" alt="Product Image" class="product-image">
+                        </div>
+                        <div class="flip-card-back">
+                            <h3></h3>
+                            <p>Calem Club - Quần jeans wash cạp cao, ống rộng tôn dáng, form thụng unisex. Thiết kế thời trang và thoải mái, phù hợp cho cả nam và nữ, giúp tạo phong cách trẻ trung và hiện đại.</p>
+                            <a href="https://s.shopee.vn/40MzFos1U1" target="_blank" class="buy-now-btn">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="https://down-bs-vn.img.susercontent.com/vn-11134207-7r98o-lyyvzyeriij18a.webp" alt="Product Image" class="product-image">
+                        </div>
+                        <div class="flip-card-back">
+                            <h3></h3>
+                            <p>Dầu gội Palmolive kèm xả 2-trong-1, chiết xuất thiên nhiên, 600ml. Sản phẩm giúp làm sạch và dưỡng ẩm tóc hiệu quả, mang lại mái tóc mềm mượt và khỏe mạnh.</p>
+                            <a href="https://s.shopee.vn/1B2nsh4qTS" target="_blank" class="buy-now-btn">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="https://down-bs-vn.img.susercontent.com/vn-11134207-7r98o-lyzyinyreh59d5.webp" alt="Product Image" class="product-image">
+                        </div>
+                        <div class="flip-card-back">
+                            <h3></h3>
+                            <p>Kem tẩy lông OLLIE, dung tích 50ml, phù hợp để tẩy lông vùng kín, nách, tay và chân. Công thức an toàn, không gây đau rát, giúp triệt lông hiệu quả và nhẹ nhàng, mang lại làn da mịn màng.</p>
+                            <a href="https://s.shopee.vn/8zlfD850y2" target="_blank" class="buy-now-btn">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="https://down-bs-vn.img.susercontent.com/vn-11134207-7r98o-lxteoa6bapcr43.webp" alt="Product Image" class="product-image">
+                        </div>
+                        <div class="flip-card-back">
+                            <h3></h3>
+                            <p>[NEW] [31-39] Son tint bóng, siêu lì, căng mọng Hàn Quốc Romand Juicy Lasting Tint 5.5g. Có sẵn các màu 12 đỏ cherry và 13 nâu gạch, mang đến đôi môi rực rỡ và lâu trôi với hiệu ứng bóng nhẹ, giữ màu sắc tươi mới suốt cả ngày.</p>
+                            <a href="https://s.shopee.vn/3q3Z3fbHV4" target="_blank" class="buy-now-btn">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="https://down-bs-vn.img.susercontent.com/vn-11134207-7r98o-lwiqbc64v3yzf0.webp" alt="Product Image" class="product-image">
+                        </div>
+                        <div class="flip-card-back">
+                            <h3></h3>
+                            <p>Áo thun nữ form ôm phối ren trái tim, kiểu dáng Coquette dễ thương, từ Chinh Trần Store. Thiết kế tinh tế, kết hợp phong cách nhẹ nhàng và nữ tính, tạo sự thoải mái và nổi bật cho người mặc.</p>
+                            <a href="https://s.shopee.vn/7pZhp7k64K" target="_blank" class="buy-now-btn">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="https://down-bs-vn.img.susercontent.com/vn-11134207-7r98o-llu44qysp9zz1c.webp" alt="Product Image" class="product-image">
+                        </div>
+                        <div class="flip-card-back">
+                            <h3></h3>
+                            <p>Áo thun baby tee trơn đơn giản, basic tee form ôm, baby tee body MA811. Thiết kế cơ bản, dễ phối đồ, mang lại sự thoải mái và phong cách thời trang tinh tế.</p>
+                            <a href="https://s.shopee.vn/8UpOcOkodB" target="_blank" class="buy-now-btn">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="https://down-bs-vn.img.susercontent.com/vn-11134207-7r98o-lpi4xtv68uuncb.webp" alt="Product Image" class="product-image">
+                        </div>
+                        <div class="flip-card-back">
+                            <h3></h3>
+                            <p>Cọ trang điểm Ombre, cọ môi chuyên dụng để tán son và thực hiện các bước trang điểm. Thiết kế chất lượng cao giúp bạn dễ dàng tạo đường viền môi sắc nét và đều màu, mang lại kết quả trang điểm hoàn hảo.</p>
+                            <a href="https://s.shopee.vn/7fGHcvHZfD" target="_blank" class="buy-now-btn">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="https://down-bs-vn.img.susercontent.com/vn-11134207-7r98o-lmh1uo8jdyhr52.webp" alt="Product Image" class="product-image">
+                        </div>
+                        <div class="flip-card-back">
+                            <h3></h3>
+                            <p>Quần jean nữ ống suông rộng, cạp lưng cao, hot 2023 từ Win Bouti. Thiết kế thời trang, thoải mái, giúp tạo dáng đẹp và phong cách hiện đại, phù hợp với xu hướng năm nay.</p>
+                            <a href="https://s.shopee.vn/9KOVc3VXkb" target="_blank" class="buy-now-btn">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="https://down-bs-vn.img.susercontent.com/vn-11134207-7r98o-lvidv8s226x913.webp" alt="Product Image" class="product-image">
+                        </div>
+                        <div class="flip-card-back">
+                            <h3></h3>
+                            <p>Sữa rửa mặt Hada Labo (80g) với các dòng sản phẩm: Advanced Nourish, Perfect White, Acne Care, và Pro Anti Aging Cleanser. Chuyên biệt cho từng nhu cầu chăm sóc da, từ dưỡng ẩm, làm sáng, trị mụn đến chống lão hóa, giúp da sạch sẽ và khỏe mạnh.</p>
+                            <a href="https://s.shopee.vn/9KOVc6d3v5" target="_blank" class="buy-now-btn">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="https://down-bs-vn.img.susercontent.com/vn-11134207-7r98o-lyzeqvqrb5b579.webp" alt="Product Image" class="product-image">
+                        </div>
+                        <div class="flip-card-back">
+                            <h3></h3>
+                            <p>[Nhập SKIN10KL2 giảm 10k] Kem chống nắng SKIN1004 Madagascar Centella Air-Fit SunCream Plus SPF50+ PA++++, 50ml. Bảo vệ da tối ưu khỏi tia UV, đồng thời giúp làm dịu và dưỡng ẩm với chiết xuất từ Centella, lý tưởng cho làn da nhạy cảm và dễ kích ứng.</p>
+                            <a href="https://s.shopee.vn/2VYBTdjBuh" target="_blank" class="buy-now-btn">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="https://down-bs-vn.img.susercontent.com/e34d289f5bb05814c300a19eb0da3b38.webp" alt="Product Image" class="product-image">
+                        </div>
+                        <div class="flip-card-back">
+                            <h3></h3>
+                            <p>[FREE SHIP] Cọ đánh son môi siêu mềm, đầu tròn Ombre. Thiết kế mềm mại và chính xác, giúp tán son đều màu và tạo đường viền môi hoàn hảo. Lý tưởng cho việc trang điểm chuyên nghiệp và tạo hiệu ứng môi sắc nét.</p>
+                            <a href="https://s.shopee.vn/7KdREaBuJU" target="_blank" class="buy-now-btn">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="https://down-bs-vn.img.susercontent.com/vn-11134207-7r98o-lyvvywvco0wx25.webp" alt="Product Image" class="product-image">
+                        </div>
+                        <div class="flip-card-back">
+                            <h3></h3>
+                            <p>Cải tiến mới - Nước dưỡng tóc tinh dầu bưởi Cocoon, 140ml. Giúp ngăn ngừa gãy rụng và hỗ trợ mọc tóc, cung cấp dưỡng chất cho tóc chắc khỏe và bóng mượt. Phù hợp cho việc chăm sóc tóc hàng ngày.</p>
+                            <a href="https://s.shopee.vn/4fcg3jPFNC" target="_blank" class="buy-now-btn">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="https://down-bs-vn.img.susercontent.com/vn-11134207-7r98o-llu4cmy8qfof32.webp" alt="Product Image" class="product-image">
+                        </div>
+                        <div class="flip-card-back">
+                            <h3></h3>
+                            <p>Quần short jeans nữ, lưng cao, túi dài, chất vải dày dặn. Có sẵn nhiều màu sắc, thiết kế thời trang và thoải mái, lý tưởng cho mùa hè và các hoạt động ngoài trời.</p>
+                            <a href="https://s.shopee.vn/5KsMr5F0cL" target="_blank" class="buy-now-btn">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="https://down-bs-vn.img.susercontent.com/vn-11134207-7r98o-lyzzlowxe201b3.webp" alt="Product Image" class="product-image">
+                        </div>
+                        <div class="flip-card-back">
+                            <h3></h3>
+                            <p>Dầu gội dược liệu Nguyên Xuân Xanh, 350ml. Dưỡng tóc hiệu quả, giúp tóc khỏe mạnh và mềm mượt. Tặng thêm 10% thể tích, giá không đổi, mang lại giá trị cao và sự tiện lợi cho việc chăm sóc tóc hàng ngày.</p>
+                            <a href="https://s.shopee.vn/4KzpfI00Nq" target="_blank" class="buy-now-btn">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="https://down-bs-vn.img.susercontent.com/vn-11134201-7r98o-lwgsac3tdhe083.webp" alt="Product Image" class="product-image">
+                        </div>
+                        <div class="flip-card-back">
+                            <h3></h3>
+                            <p>Kem rửa mặt Hada Labo sạch sâu dưỡng ẩm, 80g, từ Hasaki. Sản phẩm chính hãng giúp làm sạch da hiệu quả, đồng thời cung cấp độ ẩm cần thiết, mang lại làn da mềm mịn và tươi mới.</p>
+                            <a href="https://s.shopee.vn/700aqI0la2" target="_blank" class="buy-now-btn">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="https://down-bs-vn.img.susercontent.com/vn-11134207-7r98o-lxvhczuxgna1fd.webp" alt="Product Image" class="product-image">
+                        </div>
+                        <div class="flip-card-back">
+                            <h3></h3>
+                            <p>Áo thun AM 1 in nhiều họa tiết tổng hợp, form rộng. Thiết kế thời trang và cá tính, với nhiều họa tiết độc đáo, tạo phong cách nổi bật và thoải mái cho người mặc.</p>
+                            <a href="https://s.shopee.vn/7AK12eY7Mg" target="_blank" class="buy-now-btn">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="https://down-bs-vn.img.susercontent.com/vn-11134207-7r98o-llk04ussriko3c.webp" alt="Product Image" class="product-image">
+                        </div>
+                        <div class="flip-card-back">
+                            <h3></h3>
+                            <p>Quần ống rộng nữ vải đũi mát, kiểu dáng Quảng Châu, cạp cao, form xinh. Thiết kế đẹp và thời trang, giúp bạn thoải mái và nổi bật với phong cách hiện đại.</p>
+                            <a href="https://s.shopee.vn/8ACYEXbpVL" target="_blank" class="buy-now-btn">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="https://down-bs-vn.img.susercontent.com/vn-11134207-7r98o-lymhdy4be9i943.webp" alt="Product Image" class="product-image">
+                        </div>
+                        <div class="flip-card-back">
+                            <h3></h3>
+                            <p>Gói hạt mix dinh dưỡng GANYUAN, 30g. Gồm hạt dinh dưỡng mix trái cây sấy giòn và hạt ngũ cốc sấy khô tẩm vị nội địa. Lý tưởng cho bữa ăn nhẹ bổ dưỡng và tiện lợi, cung cấp năng lượng và chất xơ.</p>
+                            <a href="https://s.shopee.vn/7fGHdgOuzV" target="_blank" class="buy-now-btn">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="https://down-bs-vn.img.susercontent.com/vn-11134207-7r98o-lyzbtgdtcwnha1.webp" alt="Product Image" class="product-image">
+                        </div>
+                        <div class="flip-card-back">
+                            <h3></h3>
+                            <p>Quần kaki nữ trơn, cạp cao, jean trắng thêu nơ từ MIAA. Ống rộng, dáng suông đứng, chất kaki bò dáng dài, cạp cao. Thiết kế thanh lịch và hiện đại, mang đến sự thoải mái và phong cách thời trang nổi bật.</p>
+                            <a href="https://s.shopee.vn/2qB1sqBNRx" target="_blank" class="buy-now-btn">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="https://down-bs-vn.img.susercontent.com/vn-11134207-7r98o-luptg6jm7w2a8b.webp" alt="Product Image" class="product-image">
+                        </div>
+                        <div class="flip-card-back">
+                            <h3></h3>
+                            <p>Viên uống giảm cân Body Sline, 30 viên/hộp. Giúp giảm cân nhanh, an toàn và hiệu quả, hỗ trợ giảm ngay 8-10kg. Công thức đặc biệt giúp kiểm soát cân nặng và thúc đẩy quá trình giảm mỡ.</p>
+                            <a href="https://s.shopee.vn/qPxVDQEcx" target="_blank" class="buy-now-btn">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="https://down-bs-vn.img.susercontent.com/vn-11134207-7r98o-lwi0dwk9pot504.webp" alt="Product Image" class="product-image">
+                        </div>
+                        <div class="flip-card-back">
+                            <h3></h3>
+                            <p>Quần jean rách gối, ống suông lưng cao nữ từ MIAA, chất denim co giãn màu retro. Thiết kế dáng rộng cạp cao, phong cách 2024, mang lại vẻ ngoài thời trang và thoải mái.</p>
+                            <a href="https://s.shopee.vn/7KdRFDIDkF" target="_blank" class="buy-now-btn">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="https://down-bs-vn.img.susercontent.com/vn-11134207-7r98o-lv1gelrop0qh07.webp" alt="Product Image" class="product-image">
+                        </div>
+                        <div class="flip-card-back">
+                            <h3></h3>
+                            <p>Bộ lợn quần dài và quần đùi siêu nhẹ mát từ Haiphuc. Thiết kế tiện lợi và thoải mái, lý tưởng cho những ngày hè nóng bức hoặc để thư giãn tại nhà.</p>
+                            <a href="https://s.shopee.vn/2AvL5lRoGX" target="_blank" class="buy-now-btn">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="https://down-bs-vn.img.susercontent.com/vn-11134207-7r98o-lyq7b3np29fx32.webp" alt="Product Image" class="product-image">
+                        </div>
+                        <div class="flip-card-back">
+                            <h3></h3>
+                            <p>Serum Vaseline Gluta-Hya, 330ml. Dưỡng da sáng mịn hiệu quả, giúp cải thiện tình trạng da chỉ sau 7 ngày sử dụng. Công thức đặc biệt với Gluta và Hyaluronic Acid cung cấp độ ẩm và làm đều màu da.</p>
+                            <a href="https://s.shopee.vn/Vn76ms44h" target="_blank" class="buy-now-btn">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="https://down-bs-vn.img.susercontent.com/vn-11134207-7r98o-lt36imat0og498.webp" alt="Product Image" class="product-image">
+                        </div>
+                        <div class="flip-card-back">
+                            <h3></h3>
+                            <p>Quần đùi nữ cạp cao chất vải Umi Hàn, co dãn 4 chiều. Thiết kế lưng cao, gen bụng nâng mông, tôn dáng, lý tưởng cho các hoạt động dance hoặc mặc hàng ngày. Chất vải thoải mái, hỗ trợ tối ưu cho mọi chuyển động.</p>
+                            <a href="https://s.shopee.vn/1LME6UFePi" target="_blank" class="buy-now-btn">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="https://down-bs-vn.img.susercontent.com/vn-11134207-7r98o-lulyvfx2i51u39.webp" alt="Product Image" class="product-image">
+                        </div>
+                        <div class="flip-card-back">
+                            <h3></h3>
+                            <p>Váy tiểu thư dễ thương MR627 với thiết kế cup ngực tôn dáng, chân váy bí bồng nhẹ nhàng và tay áo phồng nữ tính. Chiếc váy này mang đến vẻ đẹp ngọt ngào, duyên dáng, giúp bạn nổi bật trong mọi dịp.</p>
+                            <a href="https://s.shopee.vn/40N16M0rz9" target="_blank" class="buy-now-btn">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="https://down-bs-vn.img.susercontent.com/vn-11134207-7r98o-lusupu0m8ht1ab.webp" alt="Product Image" class="product-image">
+                        </div>
+                        <div class="flip-card-back">
+                            <h3></h3>
+                            <p>Set áo sơ mi kèm chân váy 2 tầng S89 từ Xixeoshop, với áo tay phồng chiết eo thanh lịch và chân váy 2 tầng duyên dáng. Thiết kế tiểu thư này mang lại vẻ đẹp nữ tính, sang trọng, hoàn hảo cho các cô nàng yêu thích phong cách nhẹ nhàng.</p>
+                            <a href="https://s.shopee.vn/4VJHhLALM7" target="_blank" class="buy-now-btn">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="https://down-bs-vn.img.susercontent.com/vn-11134207-7r98o-lxteoa6bapcr43.webp" alt="Product Image" class="product-image">
+                        </div>
+                        <div class="flip-card-back">
+                            <h3></h3>
+                            <p>Son Tint Bóng Romand Juicy Lasting Tint (5.5g) với hai sắc màu siêu hot: 12 Đỏ Cherry và 13 Nâu Gạch. Chất son siêu lì, căng mọng, giúp đôi môi bạn trở nên quyến rũ và bền màu suốt ngày dài. Sản phẩm từ Hàn Quốc, mang đến vẻ đẹp tự nhiên và cuốn hút.</p>
+                            <a href="https://s.shopee.vn/9UhxegRGqX" target="_blank" class="buy-now-btn">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="https://down-bs-vn.img.susercontent.com/sg-11134301-7rd57-lwgxxlcpjpzc85.webp" alt="Product Image" class="product-image">
+                        </div>
+                        <div class="flip-card-back">
+                            <h3></h3>
+                            <p>Serum chống nắng Vaseline GLUTA HYA SPF50 (50ml) giúp bảo vệ da hiệu quả khỏi tác hại của tia UV, đồng thời cung cấp độ ẩm và làm sáng da nhờ công thức chứa Glutathione và Hyaluronic Acid. Sản phẩm không chỉ bảo vệ da mà còn giúp da mịn màng, căng bóng.</p>
+                            <a href="https://s.shopee.vn/7AK2sSdDEZ" target="_blank" class="buy-now-btn">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="https://down-bs-vn.img.susercontent.com/vn-11134207-7r98o-lyxj8nn1jyjla3.webp" alt="Product Image" class="product-image">
+                        </div>
+                        <div class="flip-card-back">
+                            <h3></h3>
+                            <p>Tẩy da chết mặt cà phê Đắk Lắk Cocoon (150ml) giúp loại bỏ tế bào chết, làm sáng da và cải thiện độ mềm mại cho làn da. Với chiết xuất cà phê Đắk Lắk, sản phẩm cung cấp dưỡng chất tự nhiên, mang lại làn da rạng rỡ và tươi trẻ.</p>
+                            <a href="https://s.shopee.vn/9pKo3R9RUE" target="_blank" class="buy-now-btn">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="https://down-bs-vn.img.susercontent.com/vn-11134207-7r98o-lyvnrz5sftep9f.webp" alt="Product Image" class="product-image">
+                        </div>
+                        <div class="flip-card-back">
+                            <h3></h3>
+                            <p>Set Nữ Fashion MA555 gồm bộ áo vạt nhọn cộc tay và quần sooc xòe thun tăm. Thiết kế thời trang, dễ phối đồ và mang lại vẻ ngoài trẻ trung, năng động. Bộ trang phục này hoàn hảo cho những ngày hè năng động và đầy phong cách.</p>
+                            <a href="https://s.shopee.vn/40N16mU27t" target="_blank" class="buy-now-btn">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="https://down-bs-vn.img.susercontent.com/vn-11134207-7r98o-lyck7er0bd0h67.webp" alt="Product Image" class="product-image">
+                        </div>
+                        <div class="flip-card-back">
+                            <h3></h3>
+                            <p>Đầm body nữ dáng ngắn tùng bí 2 dây có mút G942 là lựa chọn hoàn hảo cho các dịp tiệc tùng hoặc đi chơi. Với màu đen sang trọng, thiết kế tôn dáng, và dây đeo tinh tế, chiếc váy này không chỉ giúp bạn nổi bật mà còn mang lại sự tự tin và quyến rũ.</p>
+                            <a href="https://s.shopee.vn/qsLn9ITF" target="_blank" class="buy-now-btn">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="https://down-bs-vn.img.susercontent.com/vn-11134207-7r98o-lyhq9j5g61sxff.webp" alt="Product Image" class="product-image">
+                        </div>
+                        <div class="flip-card-back">
+                            <h3></h3>
+                            <p>Áo len polo dệt kim kẻ sọc cộc tay từ HyominStore với thiết kế cổ V và thêu lo.e.we mang đến phong cách thời trang tinh tế và hiện đại. Chất liệu len dệt kim mềm mại, vừa thoải mái vừa tôn dáng, phù hợp cho nhiều dịp từ đi làm đến đi chơi.</p>
+                            <a href="https://s.shopee.vn/2VYDKUaxAe" target="_blank" class="buy-now-btn">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="https://down-bs-vn.img.susercontent.com/vn-11134207-7qukw-ljwko7p87rb660.webp" alt="Product Image" class="product-image">
+                        </div>
+                        <div class="flip-card-back">
+                            <h3></h3>
+                            <p>Áo thun RAGLAN form rộng tay lỡ từ SAM CLO, dáng Unisex phù hợp cho cả nam và nữ. Với thiết kế freesize, phối tay in chữ PSEZODIR, sản phẩm lý tưởng cho áo cặp hoặc áo lớp, mang đến sự thoải mái và phong cách năng động.</p>
+                            <a href="https://s.shopee.vn/3q3av5O7KW" target="_blank" class="buy-now-btn">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="https://down-bs-vn.img.susercontent.com/33f67a1c8c0cc6a279c0c13c0cb2a513.webp" alt="Product Image" class="product-image">
+                        </div>
+                        <div class="flip-card-back">
+                            <h3></h3>
+                            <p>Bộ ngủ nữ CAXA 🦋 Set pijama mặc nhà với hai màu xanh và cam mang đến sự thoải mái và phong cách dễ chịu. Thiết kế nhẹ nhàng, mềm mại, hoàn hảo cho những đêm thư giãn tại nhà hoặc thời gian nghỉ ngơi.</p>
+                            <a href="https://s.shopee.vn/1fz6L9Zcda" target="_blank" class="buy-now-btn">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="https://down-bs-vn.img.susercontent.com/vn-11134207-7r98o-lx2fjgrsy7kp81.webp" alt="Product Image" class="product-image">
+                        </div>
+                        <div class="flip-card-back">
+                            <h3></h3>
+                            <p>Áo khoác unisex denim jacket raw-motosport với cổ tàu nút bấm và thiết kế basic. Form boxy trendy mang đến vẻ ngoài hiện đại và thời thượng. Chất liệu denim bền bỉ, phù hợp cho nhiều phong cách và dịp sử dụng.</p>
+                            <a href="https://s.shopee.vn/A9xeSokJbX" target="_blank" class="buy-now-btn">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="https://down-bs-vn.img.susercontent.com/vn-11134207-7r98o-lz1hobnbneq5f0.webp" alt="Product Image" class="product-image">
+                        </div>
+                        <div class="flip-card-back">
+                            <h3></h3>
+                            <p>[CHÍNH HÃNG] Dove Serum dưỡng sáng khử mùi (40ml) dành cho nữ, chứa 3% Niacinamide, giúp làm sáng da, khử mùi hiệu quả và làm đều màu da. Serum cung cấp độ ẩm, mang lại làn da mịn màng và rạng rỡ suốt cả ngày.</p>
+                            <a href="https://s.shopee.vn/3Anu81n0vh" target="_blank" class="buy-now-btn">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="https://down-bs-vn.img.susercontent.com/vn-11134207-7r98o-lmsz5jvx6yn30f.webp" alt="Product Image" class="product-image">
+                        </div>
+                        <div class="flip-card-back">
+                            <h3></h3>
+                            <p>Nước hoa nữ Deelab (10ml) dạng xịt mang đến hương thơm hấp dẫn, thu hút, gợi cảm và trưởng thành. Thiết kế nhỏ gọn, tiện lợi, hoàn hảo để mang theo bên mình, giúp bạn tỏa sáng và tự tin suốt cả ngày.</p>
+                            <a href="https://s.shopee.vn/6KkwCHjk2j" target="_blank" class="buy-now-btn">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="https://down-bs-vn.img.susercontent.com/vn-11134207-7r98o-lmh1uo8jdyhr52.webp" alt="Product Image" class="product-image">
+                        </div>
+                        <div class="flip-card-back">
+                            <h3></h3>
+                            <p>Quần jean nữ ống suông rộng cạp lưng cao từ Win Bouti là xu hướng hot 2023. Thiết kế hiện đại tôn dáng, mang lại vẻ ngoài thanh lịch và thời thượng. Hoàn hảo để phối với nhiều kiểu áo, phù hợp cho mọi hoàn cảnh từ đi làm đến đi chơi.</p>
+                            <a href="https://s.shopee.vn/g6ZUP8AIm" target="_blank" class="buy-now-btn">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="https://down-bs-vn.img.susercontent.com/vn-11134207-7r98o-lyvs9i6wt12953.webp" alt="Product Image" class="product-image">
+                        </div>
+                        <div class="flip-card-back">
+                            <h3></h3>
+                            <p>Kem chống nắng Sunplay Skin Aqua Tone Up UV Essence Lavender (50g) với SPF 50+ PA++++ giúp bảo vệ da tối màu khỏi tia UV và nâng tông da hiệu quả. Dạng tinh chất nhẹ, thấm nhanh, mang lại làn da sáng mịn, đều màu và rạng rỡ suốt cả ngày.</p>
+                            <a href="https://s.shopee.vn/6085qIgyAT" target="_blank" class="buy-now-btn">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="https://down-cvs-vn.img.susercontent.com/e34d289f5bb05814c300a19eb0da3b38.webp" alt="Product Image" class="product-image">
+                        </div>
+                        <div class="flip-card-back">
+                            <h3></h3>
+                            <p>[FREE SHIP] Cọ đánh son môi siêu mềm đầu tròn Ombre mang đến trải nghiệm trang điểm mượt mà và chính xác. Đầu cọ tròn, chất liệu mềm mại giúp tạo lớp son đều màu, hoàn hảo cho cả việc tạo hiệu ứng ombre lẫn tô son full môi.</p>
+                            <a href="https://s.shopee.vn/9zeEc9SDE4" target="_blank" class="buy-now-btn">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="https://down-cvs-vn.img.susercontent.com/vn-11134207-7r98o-lwcivndzok49e1.webp" alt="Product Image" class="product-image">
+                        </div>
+                        <div class="flip-card-back">
+                            <h3></h3>
+                            <p>Kem chống nắng PESTLO Safe Recipe Sun Essence (50ml) với SPF 50 PA++++ cung cấp khả năng bảo vệ da toàn diện khỏi tia UV. Công thức dịu nhẹ, thẩm thấu nhanh, mang lại cảm giác mát dịu và an toàn cho mọi loại da, giúp duy trì làn da khỏe mạnh và rạng rỡ suốt cả ngày.</p>
+                            <a href="https://s.shopee.vn/4VJI4D5Jdg" target="_blank" class="buy-now-btn">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="https://down-cvs-vn.img.susercontent.com/vn-11134207-7r98o-lz09386ksk7ha8.webp" alt="Product Image" class="product-image">
+                        </div>
+                        <div class="flip-card-back">
+                            <h3></h3>
+                            <p>Mặt nạ đất sét lá neem Himalaya Neem Face Pack (100ml) giúp loại bỏ mụn, bã nhờn và mờ thâm hiệu quả. Với chiết xuất từ lá neem, sản phẩm làm sạch sâu lỗ chân lông, mang lại làn da tươi sáng, mịn màng và khỏe mạnh.
+
+                            </p>
+                            <a href="https://s.shopee.vn/g6ZVHUHS5" target="_blank" class="buy-now-btn">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="https://down-cvs-vn.img.susercontent.com/vn-11134207-7r98o-llu44qysp9zz1c.webp" alt="Product Image" class="product-image">
+                        </div>
+                        <div class="flip-card-back">
+                            <h3></h3>
+                            <p>Áo thun Baby Tee trơn đơn giản MA811 là lựa chọn hoàn hảo cho phong cách basic. Với form ôm vừa vặn, thiết kế baby tee tôn dáng, dễ dàng phối cùng nhiều trang phục khác, mang lại vẻ ngoài trẻ trung và năng động.</p>
+                            <a href="https://s.shopee.vn/8KW0dQzGvY" target="_blank" class="buy-now-btn">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="https://down-cvs-vn.img.susercontent.com/vn-11134207-7r98o-lyzeqvqrb5b579.webp" alt="Product Image" class="product-image">
+                        </div>
+                        <div class="flip-card-back">
+                            <h3></h3>
+                            <p>[Nhập SKIN10KL2 giảm 10k] Kem chống nắng SKIN1004 Madagascar Centella Air-Fit SunCream Plus (50ml) với SPF50+ PA++++ bảo vệ da tối ưu khỏi tia UV. Công thức chứa chiết xuất rau má từ Madagascar giúp làm dịu da, thẩm thấu nhanh, mang lại cảm giác nhẹ nhàng và không nhờn rít.</p>
+                            <a href="https://s.shopee.vn/1B2q6SLhvk" target="_blank" class="buy-now-btn">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            
+            
+
+        </div>
+        <!-- about-->
+         <div class="about tab-content" id="About">
+            <article class="card__article">
+                <div class="card__profile">
+                   <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/4gHYSUNDX1BST0ZJTEUAAQEAAAHIAAAAAAQwAABtbnRyUkdCIFhZWiAH4AABAAEAAAAAAABhY3NwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA9tYAAQAAAADTLQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAlkZXNjAAAA8AAAACRyWFlaAAABFAAAABRnWFlaAAABKAAAABRiWFlaAAABPAAAABR3dHB0AAABUAAAABRyVFJDAAABZAAAAChnVFJDAAABZAAAAChiVFJDAAABZAAAAChjcHJ0AAABjAAAADxtbHVjAAAAAAAAAAEAAAAMZW5VUwAAAAgAAAAcAHMAUgBHAEJYWVogAAAAAAAAb6IAADj1AAADkFhZWiAAAAAAAABimQAAt4UAABjaWFlaIAAAAAAAACSgAAAPhAAAts9YWVogAAAAAAAA9tYAAQAAAADTLXBhcmEAAAAAAAQAAAACZmYAAPKnAAANWQAAE9AAAApbAAAAAAAAAABtbHVjAAAAAAAAAAEAAAAMZW5VUwAAACAAAAAcAEcAbwBvAGcAbABlACAASQBuAGMALgAgADIAMAAxADb/2wBDAAEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQH/2wBDAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQH/wAARCAJuAmwDAREAAhEBAxEB/8QAHwABAAICAwADAQAAAAAAAAAAAAkKCAsDBgcBBAUC/8QAVBABAAEEAQMCAwQFBAsJEQAAAAECAwQFBgcIEQkhEhMxChRBURUiYXGBFjKRsRcZJTQ5dKGzwfDxGCMkJic3VXW3NThCREdSU1djZWd3hZa20eH/xAAdAQEAAgIDAQEAAAAAAAAAAAAABgcFCAEDBAIJ/8QAThEBAAIBAwIDAwYICwUHBAMAAAECAwQFERIhBjFBEyJRBxRhcYGRIyQyNqGxs/AVMzQ1UnJ0srTB0RZCc4KTJURTYoPC4SZUZJKUo6T/2gAMAwEAAhEDEQA/AL3AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA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AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB/9k=" alt="image" class="card__profile-img">
+                </div>
+                
+                <div class="card__tooltip">
+                   <div class="card__content">
+                      <header class="card__header">
+                         <span>Social</span>
+                         
+                         <div class="card__social"> 
+                            <a href="https://www.facebook.com/profile.php?id=61561154461016" target="_blank">
+                                <i class='bx bxl-facebook' ></i>
+                            </a>
+       
+                            <a href="https://github.com/" target="_blank">
+                                <i class='bx bxl-github'></i>
+                            </a>
+                         </div>
+                      </header>
+       
+                      <div class="card__data">
+                         <div class="card__image">
+                            <div class="card__mask">
+                               <!-- <img src="/shop/me.png" alt="image" class="card__img"> -->
+                            </div>
+                            
+                            <span class="card__status"></span>
+                         </div>
+       
+                         <h2 class="card__name">Dang Quang Canh</h2>
+                         <h3 class="card__profession">A-ShopVN is where quality meets trust. We've carefully curated the best products to meet the highest standards. Our team is dedicated to ensuring your satisfaction with exceptional service before, during, and after your purchase. Trust A-Shop for not just shopping, but a valuable experience.</h3>
+       
+                         <a href="https://www.pinterest.com/tuilalinhcutiii/?actingBusinessId=1038502132732628916" class="card__button" target="">
+                            <i class="ri-chat-3-line"></i> <span>Follow Us</span>
+                         </a>
+                      </div>
+                   </div>
+                </div>
+             </article>
+             
+         </div>
+         <!-- end of about -->
+          <!-- earns -------------------------------------------------------------------------------->
+           <div class="earns tab-content" id="Earns">
+            <div class="carousel">
+                <div class="list">
+                    <div class="item">
+                        <!-- <img src="https://app.kiemlua.vn/img/KiemLua-Logo.png"> -->
+                        <div class="introduce">
+                            <div class="title">Web MMO</div>
+                            <div class="topic">Kiemlua</div>
+                            <div class="des">
+                                <!-- 20 lorem -->
+                                Kiemlua.vn là một trang web giúp người dùng kiếm tiền online thông qua các nhiệm vụ đơn giản như xem video, làm khảo sát, hoặc tải ứng dụng. Trang web dễ sử dụng, uy tín, và hỗ trợ thanh toán nhanh chóng.
+                            </div>
+                            <button class="seeMore">SEE MORE </button>
+                        </div>
+                        <div class="detail">
+                            <div class="title">Kiemlua</div>
+                            <div class="des">
+                                <!-- lorem 50 -->
+                                Kiemlua.vn là một trang web MMO uy tín tại Việt Nam, chuyên cung cấp các cơ hội kiếm tiền online thông qua các nhiệm vụ đơn giản và đa dạng. Người dùng có thể dễ dàng tham gia, thực hiện các công việc như khảo sát, xem video, tải ứng dụng và nhận thưởng ngay lập tức. Kiemlua.vn cam kết thanh toán nhanh chóng và hỗ trợ người dùng tận tình, tạo ra một cộng đồng kiếm tiền online lành mạnh và tin cậy.
+                            </div>
+                            
+                            <div class="checkout">
+                                <button><a href="https://kiemlua.vn/ref/NLuJLiMc33" target="_blank">Get Now</a></button>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="item">
+                        <!-- <img src="https://app.golike.net/img/golike-logo.8423b5bb.svg"> -->
+                        <div class="introduce">
+                            <div class="title">App/Web MMO</div>
+                            <div class="topic">Golike</div>
+                            <div class="des">
+                                <!-- 20 lorem -->
+                                GoLike là nền tảng kiếm tiền online qua các nhiệm vụ mạng xã hội như like, follow, giúp bạn tăng thu nhập dễ dàng.
+                            </div>
+                            <button class="seeMore">SEE MORE </button>
+                        </div>
+                        <div class="detail">
+                            <div class="title">Golike</div>
+                            <div class="des">
+                                <!-- lorem 50 -->
+                                GoLike.net là nền tảng giúp bạn kiếm tiền online thông qua việc thực hiện các nhiệm vụ trên mạng xã hội như like bài viết, follow tài khoản và chia sẻ nội dung. Với quy trình đơn giản và thanh toán minh bạch, GoLike.net mang đến cơ hội tăng thu nhập nhanh chóng và linh hoạt cho mọi người.
+                            </div>
+                            <div class="checkout">
+                                
+                                <button><a href="http://903.golike88.com/share/8ll712.html?referral_code=nvh9998" target="_blank">Get Now</a></button>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="item">
+                        <!-- <img src="/shop/download.png"> -->
+                        <div class="introduce">
+                            <div class="title">App MMO</div>
+                            <div class="topic">X world</div>
+                            <div class="des">
+                                <!-- 20 lorem -->
+                                "X World là nền tảng giải trí trực tuyến đa dạng, mang đến cơ hội kiếm tiền từ các hoạt động tương tác, quảng cáo, và chia sẻ nội dung, tạo trải nghiệm giải trí thú vị và sinh lời."
+                            </div>
+                            <button class="seeMore">SEE MORE </button>
+                        </div>
+                        <div class="detail">
+                            <div class="title">X world</div>
+                            <div class="des">
+                                <!-- lorem 50 -->
+                                "X World là nền tảng giải trí trực tuyến tiên tiến, kết hợp game, video, và mạng xã hội, mang đến cơ hội kiếm tiền từ các hoạt động tương tác, chia sẻ, và quảng cáo. Tham gia X World, người dùng không chỉ được giải trí mà còn khám phá nhiều cơ hội hấp dẫn để tạo thu nhập từ các chiến dịch quảng cáo sáng tạo."
+                            </div>
+                            <div class="checkout">
+                                
+                                <button><a href="https://xworld-app.com/vi-VN/share/land?userId=5113348" target="_blank">Get Now</a></button>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="item">
+                        <!-- <img src="images/img4.png"> -->
+                        <div class="introduce">
+                            <div class="title">App airdrop tokens</div>
+                            <div class="topic">Satoshi</div>
+                            <div class="des">
+                                <!-- 20 lorem -->
+                                Ứng dụng Satoshi cho phép người dùng kiếm tiền mã hóa miễn phí bằng cách hoàn thành nhiệm vụ và tích lũy satoshi, đơn vị nhỏ nhất của Bitcoin.
+                            </div>
+                            <button class="seeMore">SEE MORE </button>
+                        </div>
+                        <div class="detail">
+                            <div class="title">Satoshi</div>
+                            <div class="des">
+                                <!-- lorem 50 -->
+                                App Satoshi là nền tảng kiếm tiền mã hóa, giúp người dùng tích lũy satoshi, đơn vị nhỏ nhất của Bitcoin, thông qua việc hoàn thành nhiệm vụ hàng ngày. Giao diện dễ sử dụng, giúp người mới bắt đầu dễ dàng tham gia vào thế giới tiền mã hóa.
+                            </div>
+                            
+                            <div class="checkout">
+                                
+                                <button><a href="https://invite.satoshiapp.xyz/9x5r1" target="_blank">Get Now</a></button>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="item">
+                        <!-- <img src="images/img5.png"> -->
+                        <div class="introduce">
+                            <div class="title">Passive income apps</div>
+                            <div class="topic">Honey gain</div>
+                            <div class="des">
+                                <!-- 20 lorem -->
+                                Honeygain giúp bạn kiếm tiền bằng cách chia sẻ băng thông internet không sử dụng. Cài đặt và để ứng dụng chạy nền để nhận thu nhập thụ động.
+                            </div>
+                            <button class="seeMore">SEE MORE </button>
+                        </div>
+                        <div class="detail">
+                            <div class="title">Honey gain</div>
+                            <div class="des">
+                                <!-- lorem 50 -->
+                                Honeygain là ứng dụng cho phép bạn kiếm tiền thụ động bằng cách chia sẻ băng thông internet không sử dụng. Chỉ cần cài đặt ứng dụng, để nó chạy nền và bạn sẽ được trả tiền theo lượng dữ liệu được chia sẻ. Phương thức đơn giản, hiệu quả cho thu nhập thêm.
+                            </div>
+                            
+                            <div class="checkout">
+                                
+                                <button><a href="https://r.honeygain.me/DANGC41D26" target="_blank">Get Now</a></button>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="item">
+                        <!-- <img src="images/img6.png"> -->
+                        <div class="introduce">
+                            <div class="title">Web MMO</div>
+                            <div class="topic">NhiemVu</div>
+                            <div class="des">
+                                <!-- 20 lorem -->
+                                NhiemVu.app là nền tảng kiếm tiền trực tuyến uy tín, giúp bạn hoàn thành nhiệm vụ và nhận thưởng nhanh chóng.
+                            </div>
+                            <button class="seeMore">SEE MORE</button>
+                        </div>
+                        <div class="detail">
+                            <div class="title">NhiemVu.app</div>
+                            <div class="des">
+                                <!-- lorem 50 -->
+                                NhiemVu.app cung cấp cơ hội kiếm tiền dễ dàng bằng cách tham gia các nhiệm vụ đơn giản. Hoàn thành nhiệm vụ, nhận thưởng và rút tiền ngay. Tham gia NhiemVu.app để bắt đầu kiếm thêm thu nhập một cách linh hoạt và hiệu quả.
+                            </div>
+                            
+                            <div class="checkout">
+                                
+                                <button><a href="https://nhiemvu.app/register?ref=49fcdd29-1440-46a1-ac87-fea1c3d17aa1" target="_blank">Get Now</a></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="arrows">
+                    <button id="prev"><</button>
+                    <button id="next">></button>
+                    <button id="back">See All  &#8599</button>
+                </div>
+            </div>
+            
+           </div>
+           <!-- end of earns -->
+        
+
+        <main class="tab-content" id="Dashboard">
+            <div class="header">
+                <div class="left">
+                    <h1>Dashboard</h1>
+                    <ul class="breadcrumb">
+                        <li><a href="#" class="active">Shop</a></li>
+                    </ul>
+                </div>
+                <a href="coming.html" target="_blank" class="report">
+                    <i class='bx bx-cloud-download'></i>
+                    <span>Download App</span>
+                </a>
+            </div>
+            <!-- Insights -->
+                <ul class="insights">
+                    <li>
+                        <i class='bx bx-calendar-check'></i>
+                        <span class="info">
+                            <h3 id="paid-orders">1,074</h3>
+                            <p>Paid Order</p>
+                        </span>
+                    </li>
+                    <li>
+                        <i class='bx bx-show-alt'></i>
+                        <span class="info">
+                            <h3 id="site-visit">3,944</h3>
+                            <p>Site Visit</p>
+                        </span>
+                    </li>
+                    <li>
+                        <i class='bx bx-line-chart'></i>
+                        <span class="info">
+                            <h3 id="searches">14,721</h3>
+                            <p>Searches</p>
+                        </span>
+                    </li>
+                    <li>
+                        <i class='bx bx-dollar-circle'></i>
+                        <span class="info">
+                            <h3 id="total-sales">$6,742</h3>
+                            <p>Total Sales</p>
+                        </span>
+                    </li>
+                </ul>
+
+<!-- End of Insights -->
+            <div class="bottom-data">
+                <div class="orders">
+                    <div class="hot-products">
+                        <h2>Hot Products</h2>
+                        <div id="card-area">
+                            <div class="box">
+                                <img alt="Product 1" src="https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lt1zzedclryc37">
+                                <div class="overlay">
+                                    <h3></h3>
+                                    <p></p>
+                                    <a href="https://shopee.vn/S%E1%BB%AFa-ch%E1%BB%91ng-n%E1%BA%AFng-b%E1%BA%A3o-v%E1%BB%87-ho%C3%A0n-h%E1%BA%A3o-Anessa-Perfect-UV-Sunscreen-Skincare-Milk-60ml-i.58411241.2029406183?sp_atk=5f66a1f8-e281-493e-b863-2c2b4a779ebb&xptdk=5f66a1f8-e281-493e-b863-2c2b4a779ebb" target="_blank">    Buy Now</a>
+                                </div>
+                            </div>
+                            <div class="box">
+                                <img alt="Product 2" src="https://down-bs-vn.img.susercontent.com/vn-11134207-7r98o-luedh54gyuxd4c.webp">
+                                <div class="overlay">
+                                    <h3></h3>
+                                    <p></p>
+                                    <a href="https://s.shopee.vn/1VfZi02Vqy" target="_blank">Buy Now</a>
+                                </div>
+                            </div>
+                            <div class="box">
+                                <img alt="Product 3" src="https://down-bs-vn.img.susercontent.com/vn-11134201-23030-gnmgaam6jfov77.webp">
+                                <div class="overlay">
+                                    <h3></h3>
+                                    <p></p>
+                                    <a href="https://s.shopee.vn/20bqJBOo4m" target="_blank">Buy Now</a>
+                                </div>
+                            </div>
+                            <div class="box">
+                                <img alt="Product 6" src="https://down-bs-vn.img.susercontent.com/vn-11134207-7r98o-ly5ay8wzlrio4f.webp">
+                                <div class="overlay">
+                                    <h3></h3>
+                                    <p></p>
+                                    <a href="https://s.shopee.vn/AKGzZ5o0IA" target="_blank">Buy Now</a>
+                                </div>
+                            </div>
+                            <div class="box">
+                                <img alt="Product 4" src="https://cdn.statically.io/img/klfoodie.com/f=auto/wp-content/uploads/2021/06/IMG_7433.jpg">
+                                <div class="overlay">
+                                    <h3></h3>
+                                    <p></p>
+                                    <a href="https://go.isclix.com/deep_link/v6/6472106158342289824/4751584435713464237?sub1=7137312&sub4=oneatapp&url_enc=aHR0cHM6Ly9zaG9wZWUudm4v" target="_blank">Buy Now</a>
+                                </div>
+                            </div>
+                            <div class="box">
+                                <img alt="Product 5" src="https://down-bs-vn.img.susercontent.com/vn-11134207-7r98o-lq48pn3sqdw2b7.webp">
+                                <div class="overlay">
+                                    <h3></h3>
+                                    <p></p>
+                                    <a href="https://s.shopee.vn/9UhsZQcsTU" target="_blank">Buy Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                
+                
+
+                <!-- Reminders -->
+                <div class="pin">
+                    <section class="battery">
+                        <div class="battery__card">
+                            <div class="battery__data">
+                                <p class="battery__text">Battery</p>
+                                <h1 class="battery__percentage">
+                                    20%
+                                </h1>
+            
+                                <p class="battery__status">
+                                    Low battery <i class="ri-plug-line"></i>
+                                </p>
+                            </div>
+            
+                            <div class="battery__pill">
+                                <div class="battery__level">
+                                    <div class="battery__liquid"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+
+                
+                <div class="footer">
+                    <p>&copy; 2024 A-ShopVN | All Rights Reserved.</p>
+                </div>
+
+                <!-- End of Reminders-->
+
+            </div>
+
+        </main>
+
+    </div>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="shop.js"></script>
+</body>
+
+</html>
